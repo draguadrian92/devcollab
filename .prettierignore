@@ -1,0 +1,15 @@
+node_modules
+dist
+build
+coverage
+
+.svelte-kit
+storybook-static
+
+playwright-report
+test-results
+
+pnpm-cache
+pnpm-state
+
+pnpm-lock.yaml

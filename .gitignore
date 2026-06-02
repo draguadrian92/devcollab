@@ -1,0 +1,55 @@
+# Dependencies
+**/node_modules/
+.pnpm-store/
+
+# Build
+**/dist/
+**/build/
+**/coverage/
+
+# TypeScript
+**/*.tsbuildinfo
+
+# SvelteKit
+**/.svelte-kit/
+
+# Storybook
+**/storybook-static/
+
+# Playwright
+**/playwright-report/
+**/test-results/
+
+# Vitest
+**/.vitest/
+
+# Logs
+**/*.log
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea/
+
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Cache
+**/.cache/
+**/pnpm-cache/
+**/pnpm-state/
+
+# Future Docker
+docker-data/
+
+# Future Turbo
+.turbo/
